@@ -1,0 +1,9 @@
+<?xml version="1.0" ?>
+<ROBOT_DESIGN name="ROBOT_MANIPULATOR_ABB_IRB_4600" creator="Ashwin_Rath">
+<links>
+<link type="Link 1" aValue="0" alphaValue="0" dValue="d1" thetaValue="Theta 1">1</link>
+<link type="Link 2" aValue="0" alphaValue="0" dValue="d2" thetaValue="Theta 2">2</link>
+<link type="Link 3" aValue="0" alphaValue="0" dValue="d3" thetaValue="Theta 3">3</link>
+<link type="Link 4" aValue="0" alphaValue="0" dValue="d4" thetaValue="Theta 4">4</link>
+</links>
+</ROBOT_DESIGN>

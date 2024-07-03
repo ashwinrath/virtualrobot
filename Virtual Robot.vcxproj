@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <SccProjectName />
+    <SccLocalPath />
+    <Keyword>MFCProj</Keyword>
+    <ProjectGuid>{3CBE6A0A-4C4B-4B7C-8C5D-CFCF7C5FC467}</ProjectGuid>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <UseOfMfc>Dynamic</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.Cpp.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <StringPooling>true</StringPooling>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>MaxSpeed</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Release\</AssemblerListingLocation>
+      <PrecompiledHeaderOutputFile>.\Release\Virtual Robot.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Release\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release\</ProgramDataBaseFileName>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Release\Virtual Robot.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release\Virtual Robot.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Release\Virtual Robot.exe</OutputFile>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <InlineFunctionExpansion>Default</InlineFunctionExpansion>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <Optimization>Disabled</Optimization>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <WarningLevel>Level3</WarningLevel>
+      <MinimalRebuild>true</MinimalRebuild>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AssemblerListingLocation>.\Debug\</AssemblerListingLocation>
+      <BrowseInformation>true</BrowseInformation>
+      <PrecompiledHeaderOutputFile>.\Debug\Virtual Robot.pch</PrecompiledHeaderOutputFile>
+      <PrecompiledHeader>Use</PrecompiledHeader>
+      <PrecompiledHeaderFile>stdafx.h</PrecompiledHeaderFile>
+      <ObjectFileName>.\Debug\</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug\</ProgramDataBaseFileName>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\AMD APP SDK\3.0\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Midl>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <TypeLibraryName>.\Debug\Virtual Robot.tlb</TypeLibraryName>
+      <MkTypLibCompatible>true</MkTypLibCompatible>
+      <TargetEnvironment>Win32</TargetEnvironment>
+    </Midl>
+    <ResourceCompile>
+      <Culture>0x0409</Culture>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+    </ResourceCompile>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug\Virtual Robot.bsc</OutputFile>
+    </Bscmake>
+    <Link>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <SubSystem>Windows</SubSystem>
+      <OutputFile>.\Debug\Virtual Robot.exe</OutputFile>
+      <AdditionalDependencies>opengl32.lib;glu32.lib;glut32.lib;ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:\Program Files %28x86%29\AMD APP SDK\3.0\lib\x86;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Action.cpp" />
+    <ClCompile Include="Axis.cpp" />
+    <ClCompile Include="AxisSystem.cpp" />
+    <ClCompile Include="CADView.cpp" />
+    <ClCompile Include="ColorEditCtrl.cpp" />
+    <ClCompile Include="Component.cpp" />
+    <ClCompile Include="DebugView.cpp" />
+    <ClCompile Include="DH.cpp" />
+    <ClCompile Include="ExpEval.cpp" />
+    <ClCompile Include="GeomException.cpp" />
+    <ClCompile Include="GLView.cpp" />
+    <ClCompile Include="Grid.cpp" />
+    <ClCompile Include="HRule.cpp" />
+    <ClCompile Include="Joint.cpp" />
+    <ClCompile Include="LightDlg.cpp" />
+    <ClCompile Include="Line3D.cpp" />
+    <ClCompile Include="Link.cpp" />
+    <ClCompile Include="ListException.cpp" />
+    <ClCompile Include="ListIteratorOfListOfCPoint3D.cpp" />
+    <ClCompile Include="ListNodeOfCPoint3D.cpp" />
+    <ClCompile Include="ListOfCPoint3D.cpp" />
+    <ClCompile Include="LogView.cpp" />
+    <ClCompile Include="MainFrm.cpp" />
+    <ClCompile Include="Matrix33.cpp" />
+    <ClCompile Include="MMath.cpp" />
+    <ClCompile Include="NetView.cpp" />
+    <ClCompile Include="Painted.cpp" />
+    <ClCompile Include="Plane.cpp" />
+    <ClCompile Include="Point3D.cpp" />
+    <ClCompile Include="ProgBar.cpp" />
+    <ClCompile Include="ProgressBar.cpp" />
+    <ClCompile Include="ProgView.cpp" />
+    <ClCompile Include="ProgWnd.cpp" />
+    <ClCompile Include="ProtoView.cpp" />
+    <ClCompile Include="Robot.cpp" />
+    <ClCompile Include="RulerWnd.cpp" />
+    <ClCompile Include="scbarcf.cpp" />
+    <ClCompile Include="scbarg.cpp" />
+    <ClCompile Include="SimNavig.cpp" />
+    <ClCompile Include="SimView.cpp" />
+    <ClCompile Include="sizecbar.cpp" />
+    <ClCompile Include="Splash.cpp" />
+    <ClCompile Include="StdAfx.cpp">
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">stdafx.h</PrecompiledHeaderFile>
+      <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
+      <PrecompiledHeaderFile Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">stdafx.h</PrecompiledHeaderFile>
+    </ClCompile>
+    <ClCompile Include="TestDlg.cpp" />
+    <ClCompile Include="Theory.cpp" />
+    <ClCompile Include="ToolBarEx.cpp" />
+    <ClCompile Include="TreeListCtrl.cpp" />
+    <ClCompile Include="TreeListHeaderCtrl.cpp" />
+    <ClCompile Include="TreeToolTipCtrl.cpp" />
+    <ClCompile Include="Vector.cpp" />
+    <ClCompile Include="Vector3D.cpp" />
+    <ClCompile Include="VectorElement.cpp" />
+    <ClCompile Include="VectorIterator.cpp" />
+    <ClCompile Include="Virtual Robot.cpp" />
+    <ClCompile Include="Virtual RobotDoc.cpp" />
+    <ClCompile Include="Virtual RobotView.cpp" />
+    <ClCompile Include="VRule.cpp" />
+    <ClCompile Include="XMLView.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="dump.tmp" />
+    <CustomBuild Include="res\Virtual Robot.rc2" />
+    <CustomBuild Include="Virtual Robot.reg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Virtual Robot.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Action.h" />
+    <ClInclude Include="Axis.h" />
+    <ClInclude Include="AxisSystem.h" />
+    <ClInclude Include="CADView.h" />
+    <ClInclude Include="ColorEditCtrl.h" />
+    <ClInclude Include="Component.h" />
+    <ClInclude Include="DebugView.h" />
+    <ClInclude Include="DH.h" />
+    <ClInclude Include="Ee.h" />
+    <ClInclude Include="ExpEval.h" />
+    <ClInclude Include="GeomException.h" />
+    <ClInclude Include="GLView.h" />
+    <ClInclude Include="Grid.h" />
+    <ClInclude Include="HRule.h" />
+    <ClInclude Include="Joint.h" />
+    <ClInclude Include="LightDlg.h" />
+    <ClInclude Include="Line3D.h" />
+    <ClInclude Include="Link.h" />
+    <ClInclude Include="ListException.h" />
+    <ClInclude Include="ListIteratorOfListOfCPoint3D.h" />
+    <ClInclude Include="ListNodeOfCPoint3D.h" />
+    <ClInclude Include="ListOfCPoint3D.h" />
+    <ClInclude Include="LogView.h" />
+    <ClInclude Include="MainFrm.h" />
+    <ClInclude Include="Matrix33.h" />
+    <ClInclude Include="MemDC.h" />
+    <ClInclude Include="MMath.h" />
+    <ClInclude Include="NetView.h" />
+    <ClInclude Include="Painted.h" />
+    <ClInclude Include="Plane.h" />
+    <ClInclude Include="Point3D.h" />
+    <ClInclude Include="ProgBar.h" />
+    <ClInclude Include="ProgressBar.h" />
+    <ClInclude Include="ProgView.h" />
+    <ClInclude Include="ProgWnd.h" />
+    <ClInclude Include="ProtoView.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="Robot.h" />
+    <ClInclude Include="RulerWnd.h" />
+    <ClInclude Include="scbarcf.h" />
+    <ClInclude Include="scbarg.h" />
+    <ClInclude Include="SimNavig.h" />
+    <ClInclude Include="SimView.h" />
+    <ClInclude Include="sizecbar.h" />
+    <ClInclude Include="Splash.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="TestDlg.h" />
+    <ClInclude Include="ToolBarEx.h" />
+    <ClInclude Include="TreeListCtrl.h" />
+    <ClInclude Include="TreeListHeaderCtrl.h" />
+    <ClInclude Include="TreeToolTipCtrl.h" />
+    <ClInclude Include="Vector.h" />
+    <ClInclude Include="Vector3D.h" />
+    <ClInclude Include="VectorElement.h" />
+    <ClInclude Include="VectorIterator.h" />
+    <ClInclude Include="Virtual Robot.h" />
+    <ClInclude Include="Virtual RobotDoc.h" />
+    <ClInclude Include="Virtual RobotView.h" />
+    <ClInclude Include="VRule.h" />
+    <ClInclude Include="XMLView.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bitmap1.bmp" />
+    <Image Include="res\bmp00001.bmp" />
+    <Image Include="res\bmp00002.bmp" />
+    <Image Include="res\bmp00003.bmp" />
+    <Image Include="res\bmp00004.bmp" />
+    <Image Include="res\bmp00005.bmp" />
+    <Image Include="res\bmp00006.bmp" />
+    <Image Include="res\bmp00007.bmp" />
+    <Image Include="res\bmp00008.bmp" />
+    <Image Include="res\bmp00009.bmp" />
+    <Image Include="res\bmp00010.bmp" />
+    <Image Include="res\bmp00011.bmp" />
+    <Image Include="res\network.bmp" />
+    <Image Include="res\progbare.bmp" />
+    <Image Include="res\splash.bmp" />
+    <Image Include="res\splash256.bmp" />
+    <Image Include="res\Toolbar.bmp" />
+    <Image Include="res\toolbar1.bmp" />
+    <Image Include="res\Virtual Robot.ico" />
+    <Image Include="res\Virtual RobotDoc.ico" />
+    <Image Include="res\vrlogo.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

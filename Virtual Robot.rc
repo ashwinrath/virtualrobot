@@ -1,0 +1,797 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Virtual Robot.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Virtual Robot.ico"
+IDR_DESIGNTYPE          ICON    DISCARDABLE     "res\\Virtual RobotDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_VIEW                BITMAP  DISCARDABLE     "res\\toolbar1.bmp"
+IDR_SET                 BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDR_SIM                 BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+LOGO                    BITMAP  DISCARDABLE     "res\\vrlogo.bmp"
+NAVIG                   BITMAP  DISCARDABLE     "res\\bitmap1.bmp"
+PROGBAR                 BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+GEOMETRY                BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+SURFACE                 BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+ROBOTICS                BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_SPLASH              BITMAP  DISCARDABLE     "res\\splash.bmp"
+IDR_NETWORK             BITMAP  DISCARDABLE     "res\\network.bmp"
+IDR_COMBOBAR            BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+PROGBAREX               BITMAP  DISCARDABLE     "res\\progbare.bmp"
+IDB_THEORY              BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+DHC                     BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+LINK                    BITMAP  DISCARDABLE     "res\\bmp00010.bmp"
+EDITING                 BITMAP  DISCARDABLE     "res\\bmp00011.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      UNDO
+    BUTTON      REDO
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_VIEW TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      TOP
+    BUTTON      BOTTOM
+    BUTTON      FRONT
+    BUTTON      BACK
+    BUTTON      LEFT
+    BUTTON      RIGHT
+    SEPARATOR
+    BUTTON      ORTHO
+    BUTTON      ORTHO1
+    BUTTON      ORTHO2
+    BUTTON      ORTHO3
+    SEPARATOR
+    BUTTON      ZOOMI
+    BUTTON      ZOOMO
+    SEPARATOR
+    BUTTON      PAN
+    BUTTON      ROTATE
+    BUTTON      POINTER
+    SEPARATOR
+    BUTTON      SOLID
+    BUTTON      WIRE
+    BUTTON      VIEW_THE_POINTS
+    SEPARATOR
+    BUTTON      RESTORE
+    BUTTON      RULER
+    BUTTON      VIEW_GRID_THING
+    BUTTON      CONTINUOUS_ORBIT
+END
+
+IDR_SET TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      LIGHTS
+    BUTTON      MATERIAL
+    BUTTON      ROBOT
+    BUTTON      DESIGN
+    BUTTON      COORDINATESYSTEM
+    BUTTON      PROGRAM
+    BUTTON      SIMSET
+END
+
+IDR_SIM TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      GO
+    BUTTON      STOP
+    BUTTON      PAUSE
+    BUTTON      STEP_F
+    BUTTON      STEP_B
+    BUTTON      RESET
+END
+
+GEOMETRY TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      LINETOOL
+    BUTTON      POLYLINE
+    BUTTON      ARC
+    BUTTON      CIRCLE
+    BUTTON      ELLIPSE
+    BUTTON      SPLINE
+    BUTTON      POINTTOOL
+END
+
+SURFACE TOOLBAR DISCARDABLE  17, 18
+BEGIN
+    BUTTON      PRIZMATIC
+    BUTTON      SPHERICAL
+    BUTTON      CHLINDER
+    BUTTON      CONE
+    BUTTON      TORUS
+    SEPARATOR
+    BUTTON      EXTRUDE
+    BUTTON      REVOLVE
+    SEPARATOR
+    BUTTON      SLICE
+    BUTTON      SECTION
+    BUTTON      INTERSECTION
+    SEPARATOR
+    BUTTON      BZSURF
+    BUTTON      EDGESURF
+    BUTTON      RULESURF
+END
+
+ROBOTICS TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      REVOL
+    BUTTON      PRIZ
+    BUTTON      ENDEFFECTOR
+    SEPARATOR
+    BUTTON      WAY4
+    BUTTON      WAY2
+    BUTTON      WAY
+    BUTTON      SNAP1
+    BUTTON      SNAP2
+    BUTTON      ISNAP
+    BUTTON      SNAP4
+    SEPARATOR
+    BUTTON      LENGTH
+    BUTTON      DIA
+    BUTTON      ANGLE
+    BUTTON      LABEL
+    BUTTON      TEXTBOX
+    SEPARATOR
+    BUTTON      SCANIT
+    BUTTON      RASTER
+    BUTTON      DIGITIZER
+END
+
+IDR_NETWORK TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      ID_CLIENTCONFIG
+    BUTTON      ID_SERVER_SETTING
+    BUTTON      ID_CONNECT
+    BUTTON      NET_DISCONNECT
+END
+
+IDR_COMBOBAR TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      VIEW_NET_WIZARD
+    BUTTON      DO_SUSPEND_NET
+    BUTTON      DO_DENY
+    SEPARATOR
+    SEPARATOR
+    SEPARATOR
+END
+
+EDITING TOOLBAR DISCARDABLE  18, 18
+BEGIN
+    BUTTON      ED1
+    SEPARATOR
+    BUTTON      ED2
+    BUTTON      ED7
+    BUTTON      ED3
+    SEPARATOR
+    BUTTON      ED4
+    BUTTON      ED6
+    BUTTON      ED5
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+        MENUITEM SEPARATOR
+        POPUP "Tool Bars"
+        BEGIN
+            MENUITEM "Standard &Bar",               ID_VIEW_TOOLBAR
+            MENUITEM "S&ettings",                   ID_SETTINGS_BAR
+            MENUITEM "Si&mulation",                 ID_VIEW_SIM_BAR
+            MENUITEM "&Geometric Views",            ID_VIEWS
+            MENUITEM "S&urface",                    ID_SURFACES_VIEW
+            MENUITEM "Ge&ometry",                   ID_GEOM_TOOLS
+            MENUITEM "&Robotics",                   ID_ROBOTICS_VIEW
+            MENUITEM "Online Simulatio&n",          ID_VIEW_NETWORK
+            MENUITEM "Customi&zed Bar",             VIEW_NETSTATS
+            MENUITEM SEPARATOR
+            MENUITEM "Environment &Navigator",      ID_VIEW_NAVIG
+            MENUITEM "&Code Editor",                ID_VIEW_CODEEDITOR
+            MENUITEM "&Progress Monitor",           ID_VIEW_PROGRESS
+        END
+    END
+    MENUITEM "&Create",                     65535
+    MENUITEM "&Draw",                       65535
+    MENUITEM "&Modify",                     65535
+    MENUITEM "&Robot",                      65535
+    POPUP "&Simulate"
+    BEGIN
+        MENUITEM "&Start",                      ID_START_SIM
+        MENUITEM "Start Ser&ver",               IDSTARTONLINE
+        MENUITEM "St&op Server",                IDCSTOPONLINE
+    END
+    MENUITEM "&Options",                    65535
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Virtual Robot...",     ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 298, 274
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_CONTEXTHELP
+CAPTION "About Virtual Robot"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "&OK",IDOK,208,21,83,14,WS_GROUP
+    CONTROL         139,IDC_STATIC,"Static",SS_BITMAP,13,21,189,144,
+                    WS_EX_STATICEDGE
+    LTEXT           "Virtual Robot [Ver 1.00] By Ashwin Kumar Rath.",
+                    IDC_STATIC,13,177,191,10
+    LTEXT           "Copyright (C) 2003 , AshwinSoft (r) Inc.",IDC_STATIC,13,
+                    189,140,10
+    LTEXT           "All Rights Reserved.",IDC_STATIC,14,201,133,10
+    DEFPUSHBUTTON   "&Tech Support...",IDOK2,208,39,83,14,WS_GROUP
+    DEFPUSHBUTTON   "&System Info...",IDOK3,208,57,83,14,WS_GROUP
+    DEFPUSHBUTTON   "&Disabled Items...",IDOK4,208,75,83,14,WS_GROUP
+    GROUPBOX        "Warning",IDC_STATIC,7,217,277,50
+    LTEXT           "This computer program is protected by copyright law and international treaties. Unauthorised reproduction or distribution of this program, or any portion of it, may result in severe civil and criminal penalties.",
+                    IDC_STATIC,14,233,265,26
+END
+
+TEST DIALOGEX 0, 0, 512, 50
+STYLE DS_CONTROL | DS_CENTER | WS_CHILD | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,51,18,76,10
+    CONTROL         "Slider2",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,193,30,104,8
+    EDITTEXT        IDC_EDIT1,39,8,141,35,ES_MULTILINE | NOT WS_BORDER | 
+                    WS_VSCROLL | WS_HSCROLL,WS_EX_CLIENTEDGE
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | ES_NUMBER | WS_BORDER | 
+                    WS_TABSTOP,197,8,79,16
+END
+
+LIGHT DIALOG DISCARDABLE  0, 0, 273, 151
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Light Position and Colour Settings"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,216,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,216,24,50,14
+    GROUPBOX        "Position",IDC_STATIC,15,14,196,56
+    GROUPBOX        "Colour",IDC_STATIC,15,80,196,56
+    EDITTEXT        IDC_EDIT1,60,23,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,60,38,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,60,53,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,60,89,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT5,60,105,24,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT6,60,120,24,12,ES_AUTOHSCROLL
+    GROUPBOX        "",IDC_STATIC,113,22,48,40,BS_FLAT
+    GROUPBOX        "",IDC_STATIC,113,88,48,40,BS_FLAT
+    PUSHBUTTON      "Test",IDC_BUTTON1,179,51,28,11
+    PUSHBUTTON      "Test",IDC_BUTTON2,179,117,28,11
+    LTEXT           "X",IDC_STATIC,47,24,8,7
+    LTEXT           "Y",IDC_STATIC,47,40,8,7
+    LTEXT           "Z",IDC_STATIC,47,55,8,7
+    LTEXT           "R",IDC_STATIC,47,91,8,7
+    LTEXT           "G",IDC_STATIC,47,107,8,7
+    LTEXT           "B",IDC_STATIC,47,122,8,7
+END
+
+MAT DIALOG DISCARDABLE  0, 0, 326, 135
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Material Properties"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,269,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,269,24,50,14
+END
+
+IDD_FWD DIALOG DISCARDABLE  0, 0, 311, 26
+STYLE DS_MODALFRAME | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    COMBOBOX        IDC_COMBO1,47,8,33,16,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_COMBO2,123,8,33,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Slider2",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,155,7,118,15
+    EDITTEXT        IDC_EDIT1,274,8,26,14,ES_AUTOHSCROLL
+    LTEXT           "Link/Joint",IDC_STATIC,11,10,34,9
+    LTEXT           "Parameter",IDC_STATIC,85,10,33,9
+END
+
+IDD_INV DIALOG DISCARDABLE  0, 0, 380, 28
+STYLE DS_MODALFRAME | WS_CHILD
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,20,8,75,14
+    EDITTEXT        IDC_EDIT1,95,8,33,15,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_SLIDER2,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,140,9,75,14
+    EDITTEXT        IDC_EDIT2,215,8,33,15,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_SLIDER3,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,264,9,75,14
+    EDITTEXT        IDC_EDIT3,340,8,33,15,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,12,12,8,10
+    LTEXT           "Y",IDC_STATIC,134,12,8,10
+    LTEXT           "Z",IDC_STATIC,256,12,8,10
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Virtual Robot MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Virtual Robot\0"
+            VALUE "LegalCopyright", "Copyright (C) 2003\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Virtual Robot.EXE\0"
+            VALUE "ProductName", "Virtual Robot Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 291
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 267
+    END
+
+    LIGHT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 266
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 144
+    END
+
+    MAT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 319
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 128
+    END
+
+    IDD_FWD, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 304
+    END
+
+    IDD_INV, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 373
+        TOPMARGIN, 1
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "Virtual Robot [Ver 1.00]\n\nDesign\nVirtual Robot Files (*.vr)\n.vr\nVRobot\nDesign Document"
+    ID_INDICATOR_COORD      "Tool Point :"
+    ID_INDICATOR_TOOL       " "
+    IDS_LINE                "Ln"
+    IDS_SNAP                "SNAP"
+    IDS_GRID                "GRID"
+    IDS_MODEL               "MODEL"
+    IDS_SIMULATION          "SIMULATION"
+    IDS_ONLINE              "ONLINE"
+    IDS_STRUCTURE           "DIAGRAM"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Virtual Robot"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CONNECT              "Establish Communication"
+    NET_DISCONNECT          "Disconnect"
+    CONTINUOUS_ORBIT        "Continuous 3D Orbit"
+    VIEW_THE_POINTS         "Render Points"
+    VIEW_NET_WIZARD         "Server/Client setting wizard"
+    DO_SUSPEND_NET          "Grant Access"
+    DO_DENY                 "Deny Access"
+    ED1                     "XML View of the input or output data file"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ED2                     "Evaluate Summation of Values"
+    ED3                     "Function Defination"
+    ED4                     "Show Line Numbers"
+    ED5                     "Keyword Lookup"
+    ED6                     "Syntax Hilight"
+    ED7                     "Evaluate Product of Values"
+    VIEW_GRID_THING         "View The Grid"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    RESTORE                 "Reset View"
+    RULER                   "View Ruler"
+    STOP                    "Stop"
+    PAUSE                   "Pause"
+    GO                      "Start"
+    STEP_F                  "Step Forward"
+    STEP_B                  "Step Backward"
+    RESET                   "Reset"
+    LINETOOL                "Draw a Line"
+    POLYLINE                "Draw a Multi-Line"
+    ARC                     "Draw an Arc"
+    CIRCLE                  "Draw a Circle"
+    ELLIPSE                 "Draw an Ellipse"
+    SPLINE                  "Draw a Spline"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    POINTTOOL               "Draw a Point"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    TOP                     "View From Top"
+    BOTTOM                  "View From Bottom"
+    FRONT                   "View From Front"
+    BACK                    "View From Back"
+    LEFT                    "View From Left"
+    RIGHT                   "View From Right"
+    ORTHO                   "SW Orthographic View"
+    ZOOMI                   "Zoom In"
+    ZOOMO                   "Zoom Out"
+    SOLID                   "Render Solid"
+    WIRE                    "Render Wire-Frame"
+    UNDO                    "Undo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    REDO                    "Redo"
+    ORTHO1                  "SE Orthographic View"
+    ORTHO2                  "NE Orthographic View"
+    ORTHO3                  "NW Orthographic View"
+    PAN                     "Pan"
+    ROTATE                  "Rotate"
+    POINTER                 "Pointer"
+    LIGHTS                  "Light Settings"
+    MATERIAL                "Material Settings"
+    ROBOT                   "Robot Settings"
+    COORDINATESYSTEM        "Coordinate Settings"
+    PROGRAM                 "Input/Output & Program Settings"
+    DESIGN                  "Simulation Settings"
+    SIMSET                  "Architectural Settings"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_CLIENTCONFIG         "Client Information"
+    ID_SERVER_SETTING       "Server Information"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Virtual Robot.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
